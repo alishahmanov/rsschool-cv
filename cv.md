@@ -35,5 +35,7 @@ func booleanToString(_ b: Bool) -> String {
   - Software Engineering 
 - nFactorial Start
 - nFactorial iOS
+## English 
+- B2<br>I often had to communicate with international students while studying at the university.
 
 
