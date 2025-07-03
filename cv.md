@@ -13,7 +13,7 @@ I am studying at Astana IT University under the Software Engineering program. Al
 - **Languages:** Swift, JavaScript, Java
 - **Frameworks:** SwiftUI, UIKit
 - **Version Control Systems:** Git
-- - **Tools & Systems:** Git, GitHub, Xcode, VSCode, Figma  
+- **Tools & Systems:** Git, GitHub, Xcode, VSCode, Figma  
 ## Code Example (from Codewars)
 - Convert a Boolean to a String
 ```swift
