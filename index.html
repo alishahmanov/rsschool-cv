@@ -5,22 +5,145 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name = "description" content = "My CV website">
     <meta name = "author" content = "Manat Alikhan">
-    <title>cv</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap" rel="stylesheet">
     <link rel = "icon" href = "Assets/favicon.ico">
     <link rel="stylesheet" href="style.css">
+    <title>CV</title>
 </head>
 <body>
 <header class= "header">
     <nav class="nav">
         <ul class="nav-list">
-            <li class="nav-item"><a href="" class="link-item">About me</a></li>
-            <li class="nav-item"><a href="" class="link-item">Skills</a></li>
-            <li class="nav-item"><a href="" class="link-item">Code example</a></li>
-            <li class="nav-item"><a href="" class="link-item">Experience</a></li>
-            <li class="nav-item"><a href="" class="link-item">Education</a></li>
-            <li class="nav-item"><a href="" class="link-item">English</a></li>
+            <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
+            <li class="nav-item"><a href="#my-projects" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
         </ul>
     </nav>
 </header>
+<main class="container main-container">
+    <div class = "left-side">
+        <figure class="figure">
+            <img src = "Assets/profile-pic.jpg" alt = "profile-pic" class="photo">
+        </figure>
+        <section class="section" id="contacts">
+            <h2 class = "section-heading">Contacts</h2>
+            <ul class="contact-list">
+                <li class="list-item">
+                    Email:
+                    <br>
+                    manat_alikhan@list.ru
+                </li>
+                <li class="list-item">
+                    GitHub:
+                    <br>
+                    https://github.com/alishahmanov
+                </li>
+                <li class="list-item">
+                    Discord:
+                    <br>
+                    alish
+                </li>
+            </ul>
+        </section>
+        <section class="section" id="education">
+            <h2 class = "section-heading">Education</h2>
+            <ul class="education-list">
+                <li class="list-item">Astana IT University
+                    <ul>
+                        <li>Software Engineering</li>
+                    </ul>
+                </li>
+                <li class="list-item">nFactorial Start</li>
+                <li class="list-item">nFactorial iOS</li>
+            </ul>
+        </section>
+    </div>
+    <div class = "right-side">
+        <section class="section" id="about-me">
+            <h1 class = "name">Manat Alikhan</h1>
+            <h2 class = "section-title">About me</h2>
+            <p class = "main-text">
+                I am a motivated junior software developer passionate about building efficient and user-friendly applications. My goal is to grow as a Full Stack Developer, improving both frontend and backend. I am studying at Astana IT University under the Software Engineering program. Also, I have a background in iOS development with Swift and have been actively working on small projects to sharpen my skills.
+            </p>
+        </section>
+        <section class="section" id="skills">
+            <h2 class = "section-title">Skills</h2>
+            <div class="skills-columns">
+                <ul class="skills-list">
+                    <li class="skills-item">
+                        Languages:<br>
+                        Swift, JavaScript, Java
+                    </li>
+                    <li class="skills-item">
+                        Frameworks:<br>
+                        SwiftUI, UIKit
+                    </li>
+                </ul>
+                <ul class="skills-list">
+                    <li class="skills-item">
+                        Version Control Systems:<br>
+                        Git
+                    </li>
+                    <li class="skills-item">
+                        Tools & Systems:<br>
+                        Git, GitHub, Xcode, VSCode, Figma
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section" id="code-example">
+            <h2 class = "section-title">Code example</h2>
+            <p class = "main-text">Kata from Codewars [ 8kyu ]</p>
+            <pre><code class = "code-example">
+                func booleanToString(_ b: Bool) -> String {
+                    if b {
+                        return "true"
+                    } else {
+                        return "false"
+                    }
+                }
+            </code></pre>
+        </section>
+        <section class="section" id="my-projects">
+            <h2 class = "section-title">Projects</h2>
+            <div class="project-colum">
+                <ul class="project-list">
+                    <li class = "project-item"><a href = "https://github.com/alishahmanov/weather-app" class="project-link">Weather App</a></li>
+                    <li class = "project-item">
+                        <img src="Assets/weatherapp-screen.png" alt="weather app screen" class="project-image">
+                    </li>
+                </ul>
+                <ul class="project-list">
+                    <li class = "project-item"><a href = "https://github.com/alishahmanov/to-do-list-app" class="project-link">To-Do List App</a></li>
+                    <li class = "project-item">
+                        <img src="Assets/todo-screen.png" alt="weather app screen" class="project-image">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section" id="languages">
+            <h2 class = "section-title">Languages</h2>
+            <ul class="languages-list">
+                <li class="languages-item">English: B1</li>
+                <li class="languages-item">Russian: C2</li>
+                <li class="languages-item">Kazakh: B2</li>
+            </ul>
+        </section>
+    </div>
+</main>
+<footer class="footer">
+    <a href="https://github.com/alishahmanov" class = "git-link">My GitHub</a>
+    <p class = "main-text">2025-2026</p>
+    <a href="https://rs.school/">
+        <img src="Assets/rs-school-logo.svg" alt="rs-icon" class = "rs-icon">
+    </a>
+</footer>
 </body>
 </html>
+
